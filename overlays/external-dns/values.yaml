@@ -6,6 +6,7 @@ aws: #@ data.values.aws
 #@ end
 #@ if data.values.gcp != None:
 provider: google
+txtPrefix: "educates"
 google:
   project: #@ data.values.gcp.project
   serviceAccountSecret: gcp-credentials-secret
