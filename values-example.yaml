@@ -1,4 +1,5 @@
 #@data/values
+---
 vsphere:
   vcenter_server: vcenter.server.com
   username: administrator@vsphere.local
